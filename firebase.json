@@ -1,0 +1,11 @@
+{
+  "hosting": {
+  	"site": "somosfamilia",
+    "public": "y",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
