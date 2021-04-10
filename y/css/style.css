@@ -24,8 +24,14 @@
     visibility: visible;
     margin-top: -10pc;
   }
+  #suscripcion {
+    margin-top: 55px;
+  }
 }
-@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+@media only screen 
+and (device-width: 375px) 
+and (device-height: 667px) 
+and (-webkit-device-pixel-ratio: 2) {
   .logo {
     margin-top: -40px;
     margin-bottom: -40px;
@@ -35,8 +41,15 @@
     visibility: visible;
     margin-top: -10pc;
   }
+  #suscripcion {
+    margin-top: 55px;
+  }
 }
-@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+
+@media only screen 
+and (device-width: 414px) 
+and (device-height: 736px) 
+and (-webkit-device-pixel-ratio: 3) {
   .logo {
     margin-top: -40px;
     margin-bottom: -40px;
@@ -46,36 +59,111 @@
     visibility: visible;
     margin-top: -10pc;
   }
+#suscripcion {
+    margin-top: 55px;
+  }
+}
+
+@media only screen 
+and (device-width : 414px) 
+and (device-height : 896px) 
+and (-webkit-device-pixel-ratio : 2) {
+  .logo {
+    margin-top: -40px;
+    margin-bottom: -40px;
+    visibility: hidden;
+  }
+  #logo-rojo {
+    visibility: visible;
+    margin-top: -10pc; 
+  }
+#suscripcion {
+    margin-top: 55px;
+  }
+}
+.h1-iframe{
+  margin-top: -151px;
 }
 
 iframe {
   width: 560px;
-  height: 315px;;
+  height: 315px;
+  margin-top: -492px;
 }
-.iframe-real{
-  margin-top: -525px;
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  iframe {
+    width: 375px;
+    height: 315px;
+  }
+  .h1-iframe{
+    margin-top: -220px;
+  }
+}
+@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  iframe {
+    width: 375px;
+    height: 315px;
+  }
+}
+
+@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+  iframe {
+    width: 414px;
+    height: 315px;
+  }
+}
+@media only screen /*iPhone XR*/
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) { 
+    iframe{
+    width: 414px;
+    height: 315px;
+}}
+}
+.h1-iframe{
+  margin-top: -609px !important;
 }
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   .iframe-real {
     width: 344px;
     height: 218px;
-    margin-top: -354px;
-}}
+    margin-top: -490px;
+  }
+}
 @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
   .iframe-real {
     width: 340px;
     height: 220px;
-    margin-top: -504px;
-  }}
+    margin-top: -635px;
+  }
+  .h1-iframe{
+    margin-top: -225px !important;
+  }
+  #comoayudar {
+    margin-top: 38px;
+  }
+}
 
 @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
   .iframe-real {
     width: 380px;
     height: 230px;
-    margin-top: -515px;
+    margin-top: -614px;
+  }
+  #comoayudar {
+    margin-top: 34px;
   }
 }
-
+@media only screen /*iPhone XR*/
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) { 
+    .iframe-real{
+    width: 380px;
+    height: 240px;
+    margin-top: -348px;
+}}
 .foto {
   width: 800px;
 }
@@ -704,6 +792,13 @@ pre code {
     margin-bottom: 150px;
   }
 }
+@media only screen /*iPhone XR*/
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) {
+    .col-md-4{
+      margin-bottom: 150px;
+      } }
 .col {
   -ms-flex-preferred-size: 0;
   flex-basis: 0;
@@ -772,6 +867,14 @@ pre code {
     max-width: 100%;
   }
 }
+@media only screen /*iPhone XR*/
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) {
+    .col-6{
+      max-width: 100%;
+      margin-left: 7px;
+      } }
 .col-7 {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 58.33333%;
@@ -823,6 +926,13 @@ pre code {
     margin-top: -70px;
   }
 }
+@media only screen /*iPhone XR*/
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) {
+    .col-12{
+      margin-top: -70px;
+      } }
 .order-first {
   -webkit-box-ordinal-group: 0;
   -ms-flex-order: -1;
@@ -6249,6 +6359,13 @@ button.bg-dark:hover {
     display: grid !important;
   }
 }
+@media only screen /*iPhone XR*/
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) {
+    .d-flex{
+      display: grid !important;
+      } }
 .d-inline-flex {
   display: -webkit-inline-box !important;
   display: -ms-inline-flexbox !important;
@@ -7544,6 +7661,13 @@ button.bg-dark:hover {
   .mb-5 {
     margin-bottom: -0rem !important;
   }
+  @media only screen /*iPhone XR*/
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) {
+    .mb-5{
+      margin-bottom: -0rem !important;
+      } }
 }
 .ml-5,
 .mx-5 {
@@ -22032,33 +22156,34 @@ h6 {
   color: #000;
   font-style: italic;
 }
-.templateux-iframe{
+.templateux-iframe {
   width: 100%;
   position: relative;
 }
-@media only screen /*iPhoneX*/
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) {
-    .templateux-iframe {
+@media only screen /*iPhoneX*/ and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .templateux-iframe {
     position: absolute;
-  }}
-@media only screen /*iPhone 8*/
-    and (device-width : 375px) 
-    and (device-height : 667px) 
-    and (-webkit-device-pixel-ratio : 2) {
-    .templateux-iframe {
+  }
+}
+@media only screen /*iPhone 8*/ and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  .templateux-iframe {
     position: absolute;
     margin-top: 150px;
-  }}
-@media only screen /*iPhone 8 Plus*/
+  }
+}
+@media only screen /*iPhone 8 Plus*/ and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+  .templateux-iframe {
+    position: absolute;
+    margin-top: 150px;
+  }
+}
+@media only screen /*iPhone XR*/
     and (device-width : 414px) 
-    and (device-height : 736px) 
-    and (-webkit-device-pixel-ratio : 3) {
-    .templateux-iframe {
-    position: absolute;
-    margin-top: 150px;
-  }}
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) {
+    .templateux-frame{
+      position: absolute;
+      margin-top: 150px;} }
 
 .templateux-navbar {
   width: 100%;
@@ -22378,6 +22503,13 @@ h6 {
     margin-top: 10px;
   }
 }
+@media only screen /*iPhone XR*/
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) {
+    .templateux-cover .heading2{
+      margin-top: 10px;
+      } }
 
 @media (min-width: 768px) {
   .templateux-cover .heading2 {
@@ -22608,6 +22740,13 @@ textarea.form-control {
     margin-left: 66px;
   }
 }
+@media only screen /*iPhone XR*/
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) { 
+    .block-icon-1 img {
+    margin-left: 60px;
+  }}
 
 .block-icon-1 .icon {
   font-size: 40px;
@@ -22640,6 +22779,13 @@ textarea.form-control {
     margin-top: -50px;
   }
 }
+@media only screen /*iPhone XR*/
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) {
+    .templateux-overlap .block-icon-1 {
+      margin-top: -50px;
+      } }
 
 .templateux-overlap .block-icon-1 .icon span {
   font-size: 80px;
@@ -22678,7 +22824,7 @@ textarea.form-control {
   background: #fff;
   padding: 1.5em 1em;
   opacity: 1;
-  height: 105px;
+  height: 160px;
   overflow: hidden;
 }
 .staff .desc h3 {
@@ -22706,7 +22852,7 @@ textarea.form-control {
 .staff:hover .desc {
   opacity: 1;
   margin-top: 10px;
-  height: 210px;
+  height: 295px;
 }
 .staff:hover .desc .parag {
   opacity: 1;
